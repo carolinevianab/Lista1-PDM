@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+/app/build/*
 
 # Log file
 *.log
