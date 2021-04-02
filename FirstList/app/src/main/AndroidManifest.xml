@@ -9,7 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstList">
-        <activity android:name=".Exercicio10Activity"></activity>
+        <activity android:name=".Exercicio06DetalheActivity"></activity>
+        <activity android:name=".Exercicio08Activity"></activity>
+        <activity android:name=".Exercicio06Activity"></activity>
+        <activity android:name=".Exercicio04Activity"></activity>
+        <activity android:name=".Exercicio02Activity"></activity>
+        <activity android:name=".Exercicio09DetalheActivity" />
+        <activity android:name=".Exercicio09Activity"></activity>
+        <activity android:name=".Exercicio07DetalheActivity" />
+        <activity android:name=".Exercicio07Activity"></activity>
+        <activity android:name=".Exercicio05Activity"></activity>
+        <activity android:name=".Exercicio03Activity"></activity>
+        <activity android:name=".Exercicio01Activity"></activity>
+        <activity android:name=".Exercicio10Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
